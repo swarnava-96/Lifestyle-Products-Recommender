@@ -36,7 +36,11 @@ conda activate myenv
 ```bash
 pip install -r requirements.txt
 ```
-##### 4. Then, in cmd or Anaconda prompt write the following code:
+##### 4. Download the dataset folder from [here](https://www.kaggle.com/paramaggarwal/fashion-product-images-small) and place it in the same working directory.
+
+##### 5. Download the model files from [here](https://drive.google.com/drive/folders/1iSlD4KMTGsSY_r-RGGTwd4DtOtmXG_yK?usp=sharing) and put it in the same working directory as of the other files like app.py and the dataset folder.
+
+##### 6. Then, in cmd or Anaconda prompt write the following code:
 ```bash
 streamlit run app.py
 ```
