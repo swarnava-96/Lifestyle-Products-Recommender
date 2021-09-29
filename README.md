@@ -47,7 +47,7 @@ streamlit run app.py
 ![Screenshot (182)](https://user-images.githubusercontent.com/75041273/135233402-cf211550-7385-4fc5-930b-2de0bfcf53e1.png)
 ![Screenshot (183)](https://user-images.githubusercontent.com/75041273/135233241-9fa6f13f-1d3e-4b8b-9a14-4b5b64b6f70f.png)
 
-### ## Further Changes to be Done
+### Further Changes to be Done
 - [ ] The project is not complete. I have thought some more things like:
       1. Scrapping data from ecommerce websites like Amazon, Flipkart rather than relying totally on kaggle dataset.
       2. Storing the data set of images in some cloud storage like Amazon S3 instead of local machine.
