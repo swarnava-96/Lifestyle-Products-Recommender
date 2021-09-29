@@ -1,0 +1,5 @@
+streamlit
+tensorflow==2.5.0
+numpy
+scikit-learn
+tqdm
