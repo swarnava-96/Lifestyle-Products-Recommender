@@ -19,7 +19,7 @@ to our model. It also saves computational power as I have limited system resourc
 Feature by feature extraction was performed for each image.
 4. Finally, for the recommendation part, I have used Scikit Learn's Nearest Neighbors algorithm which will give the five most nearest vectors/neighbors
 based on Euclidean distance.
-5. I have used streamlit to create an application out of it and deployed locally(localhist8501)
+5. I have used streamlit to create an application out of it and deployed locally(localhost:8501)
 
 ### Installation:
 The Code is written in Python 3.7.3 If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
@@ -48,11 +48,11 @@ streamlit run app.py
 ![Screenshot (183)](https://user-images.githubusercontent.com/75041273/135233241-9fa6f13f-1d3e-4b8b-9a14-4b5b64b6f70f.png)
 
 ### Further Changes to be Done
-- [ ] The project is not complete. I have thought some more things like:
-      1. Scrapping data from ecommerce websites like Amazon, Flipkart rather than relying totally on kaggle dataset.
-      2. Storing the data set of images in some cloud storage like Amazon S3 instead of local machine.
-      3. Using python to create a connection with the S3 and using the data.
-      4. Using Annoy, a library of Spotify for recommendation insted of Scikit-Learn's Nearest Neighbors. This will optimize the code and make it faster for 
+- [ ]  The project is not complete. I have thought some more things like:
+      1. Scraping data from ecommerce websites like Amazon, Flipkart rather than relying totally on kaggle dataset.
+      2. Storing the data set of images in some cloud storage platforms like Amazon S3 instead of local machine.
+      3. Using python to create a connection with the S3 for using the data.
+      4. Using Annoy, a library from Spotify for recommendation insted of Scikit-Learn's Nearest Neighbors. This will optimize the code and make it faster for 
          larger datasets. 
 
 - [ ] Deploying the Web Application on Cloud.
