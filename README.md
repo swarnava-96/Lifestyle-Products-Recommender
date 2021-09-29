@@ -44,7 +44,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-##### Make sure to change the directory to the root folder.  
+##### Make sure to change the directory to the root folder inside cmd/Anaconda prompt.  
 
 ### A glimpse of the application:
 ![Screenshot (184)](https://user-images.githubusercontent.com/75041273/135233035-a07eef75-8b44-474b-b6a1-825d6df4b7bd.png)
